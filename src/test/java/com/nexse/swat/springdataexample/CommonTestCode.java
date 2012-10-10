@@ -13,12 +13,12 @@ import java.util.List;
  *         Date: 08/10/12
  *         Time: 17:27
  */
-public class CommonTest {
+public class CommonTestCode {
     @Autowired
     private BookRepository bookRepository;
 
     @Test
-    public void insertOneUser(){
+    public void insertOneBook(){
         Assert.notNull(bookRepository);
         Book book = new Book();
         book.setTitle("test1");

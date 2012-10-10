@@ -14,5 +14,5 @@ import org.springframework.transaction.annotation.Transactional;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = AppConfig.class)
 @Transactional
-public class TestWithJavaConfig extends CommonTest {
+public class TestWithJavaConfig extends CommonTestCode {
 }

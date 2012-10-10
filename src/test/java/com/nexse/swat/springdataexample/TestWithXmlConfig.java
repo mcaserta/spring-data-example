@@ -13,5 +13,5 @@ import org.springframework.transaction.annotation.Transactional;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations ={"classpath:/com/nexse/swat/springdataexample/conf/infrastructure.xml"})
 @Transactional
-public class TestWithXmlConfig extends CommonTest {
+public class TestWithXmlConfig extends CommonTestCode {
 }
